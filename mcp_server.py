@@ -1,7 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 from groq import Groq
 
-client = Groq(api_key=None)
+client = Groq(api_key="GROQ_API_KEY")
 mcp = FastMCP("ChatMCP", log_level="ERROR")
 
 # Tool for chatting
